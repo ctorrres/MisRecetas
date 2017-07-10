@@ -12,6 +12,11 @@
 		8412CE391EE02E50009562F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8412CE371EE02E50009562F0 /* Main.storyboard */; };
 		8412CE3B1EE02E50009562F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8412CE3A1EE02E50009562F0 /* Assets.xcassets */; };
 		8412CE3E1EE02E50009562F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8412CE3C1EE02E50009562F0 /* LaunchScreen.storyboard */; };
+		8412CE461EE9D842009562F0 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412CE451EE9D842009562F0 /* Recipe.swift */; };
+		84131DF11EF8211300975387 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84131DF01EF8211300975387 /* DetailViewController.swift */; };
+		84A4861D1EF0C3090036F298 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4861C1EF0C3090036F298 /* RecipeCell.swift */; };
+		84BCFAC91F06E60700FAB7C4 /* RecipeDetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BCFAC81F06E60700FAB7C4 /* RecipeDetailViewCell.swift */; };
+		84BCFACB1F0ACA2100FAB7C4 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BCFACA1F0ACA2100FAB7C4 /* ReviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		8412CE3A1EE02E50009562F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8412CE3D1EE02E50009562F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8412CE3F1EE02E50009562F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8412CE451EE9D842009562F0 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		84131DF01EF8211300975387 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		84A4861C1EF0C3090036F298 /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		84BCFAC81F06E60700FAB7C4 /* RecipeDetailViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewCell.swift; sourceTree = "<group>"; };
+		84BCFACA1F0ACA2100FAB7C4 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				8412CE3A1EE02E50009562F0 /* Assets.xcassets */,
 				8412CE3C1EE02E50009562F0 /* LaunchScreen.storyboard */,
 				8412CE3F1EE02E50009562F0 /* Info.plist */,
+				8412CE451EE9D842009562F0 /* Recipe.swift */,
+				84A4861C1EF0C3090036F298 /* RecipeCell.swift */,
+				84131DF01EF8211300975387 /* DetailViewController.swift */,
+				84BCFAC81F06E60700FAB7C4 /* RecipeDetailViewCell.swift */,
+				84BCFACA1F0ACA2100FAB7C4 /* ReviewViewController.swift */,
 			);
 			path = MisRecetas;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8412CE461EE9D842009562F0 /* Recipe.swift in Sources */,
+				84BCFAC91F06E60700FAB7C4 /* RecipeDetailViewCell.swift in Sources */,
+				84BCFACB1F0ACA2100FAB7C4 /* ReviewViewController.swift in Sources */,
 				8412CE361EE02E50009562F0 /* ViewController.swift in Sources */,
+				84131DF11EF8211300975387 /* DetailViewController.swift in Sources */,
 				8412CE341EE02E50009562F0 /* AppDelegate.swift in Sources */,
+				84A4861D1EF0C3090036F298 /* RecipeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +322,7 @@
 				8412CE441EE02E50009562F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
